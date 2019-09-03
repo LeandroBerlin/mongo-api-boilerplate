@@ -2,22 +2,19 @@
 
 A minimalistic Web Application with **CRUD** (create, read, update, delete) functionality created with Node.js / MongoDB & Mongoose.js / Express.js, JWT &JSON
 
-## JWT
+## Jwt authentication
 
 **API uthentication** is provided using **Json Web Token & Bcrypt**
 
-## CONFIGURATION
+## Configuration
 
 The database **settings**, the mongoose **schema**, documents **structure**, fields *names* are stored in **environment variables**
 
 
 ## "As slight as possible"
+
 Since Express >= 4.16.0, body parser has been re-added under the methods express.json() and express.urlencoded(), this web app use only few dependency: [Express](https://expressjs.com), [Mongoose](https://mongoosejs.com), [DotEnv](https://www.npmjs.com/package/dotenv-json), [Bcrypt](https://www.npmjs.com/package/bcrypt), [JsonWebToken](https://www.npmjs.com/package/jsonwebtoken)
 
-## Quick up&running
-<br />
-<img src="https://media.giphy.com/media/3o7ZetIsjtbkgNE1I4/giphy.gif" height="180px">
-<br/>
 
 ## Features
 - Env settings to bootstrap the project
@@ -30,7 +27,10 @@ Since Express >= 4.16.0, body parser has been re-added under the methods express
 - JWT Authentication
 
 
-## Setup & run
+## Quick Up&Running
+<br />
+<img src="https://media.giphy.com/media/3o7ZetIsjtbkgNE1I4/giphy.gif" height="180px">
+<br/>
 
 - Clone the repo
 
